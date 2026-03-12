@@ -4,7 +4,7 @@
     <em>API RESTful de gerenciamento de tarefas (CRUD) com .NET 10, EF Core 10 e SQLite.</em>
   </p>
 
-  [![CI](https://github.com/gabiRioRange/CRUD-C-/actions/workflows/ci.yml/badge.svg)](https://github.com/gabiRioRange/CRUD-C-/actions/workflows/ci.yml)
+  [![CI](https://img.shields.io/github/actions/workflow/status/gabiRioRange/CRUD-C-/ci.yml?branch=main&label=CI)](https://github.com/gabiRioRange/CRUD-C-/actions/workflows/ci.yml)
   [![Coverage](https://codecov.io/gh/gabiRioRange/CRUD-C-/branch/main/graph/badge.svg)](https://codecov.io/gh/gabiRioRange/CRUD-C-)
 </div>
 
@@ -18,7 +18,7 @@ Os badges acima já estão prontos como template. Para ativar de verdade:
 
 1. O badge de CI já está apontando para `gabiRioRange/CRUD-C-`.
 2. O workflow em `.github/workflows/ci.yml` executa restore, build e test em push/PR.
-3. (Opcional) Integre com Codecov para publicar a cobertura no badge.
+3. (Opcional) Integre com Codecov para publicar a cobertura no badge (sem integração ele fica `unknown`).
 
 ## ✨ Funcionalidades
 
